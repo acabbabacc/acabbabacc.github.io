@@ -1,41 +1,51 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Consolas, sans-serif;
+    color: white;
+}
+
+h1, h2, h3{
     color: #234465;
-}
-
-.annoying-div{
-    border-radius: 15px;
-    display: inline-block;
-}
-
-.annoying-div img{
-    display: block;
-    margin: 0 auto;
-}
-
-h1{
-    text-decoration: underline;
-    text-align: center;
-}
-span{
-    margin: 0 auto;
-    display: block;
     text-align: center;
 }
 
-section{
-    width: 100%;
-    height: 300vh;
+img{
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 4096px;
 }
 
-footer {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+footer{
+    margin-top: 4096px;
+    color: #234465;
+    text-align: center;
+    font-size: 24px;
 }
 
-footer img {
-    max-width: 200px;
+footer a {
+	color: purple;
+}
+
+table{
+    width: 100%;
+    margin: 0 auto;
+}
+
+tr{
+    margin: 0 auto;
+    width: 99%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+}
+
+tr:nth-child(even){
+    text-align: right;
+}
+tr:nth-child(odd){
+    text-align: left;
+}
+
+td{
+    width: 100%;
+    display: block;
 }
